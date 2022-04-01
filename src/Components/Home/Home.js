@@ -11,7 +11,7 @@ const Home = () => {
     const handleAddCart=(shirt)=>{
         const exits = carts.find(shirts=>shirts._id === shirt._id)
 
-        if(!exits && carts.length<3){
+        if(!exits && carts.length<5){
             setCart([...carts, shirt])
         }else{
             alert('items alreary added')

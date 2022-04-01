@@ -9,7 +9,8 @@ const Header = () => {
             </div>
             <div className='flex justify-between items-center' >
                 <CustomLink className='mr-5 text-xl' to={'/'}>Home</CustomLink>
-                <CustomLink className='text-xl ' to={'/orders'}>Order</CustomLink>
+                <CustomLink className='text-xl mr-5' to={'/orders'}>Order</CustomLink>
+                <CustomLink className='text-xl' to={'/grandpa'}>Grandpa</CustomLink>
                 
             </div>
         </div>
